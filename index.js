@@ -33,6 +33,14 @@ $(document).keypress(function() {
     }
 })
 
+function start() {
+    if(level === 0) {
+        gamePattern = [];
+        userClickedPattern = [];
+        nextSequence();
+    }
+}
+
 function playSound(name) {
     switch(name) {
         case "red":
