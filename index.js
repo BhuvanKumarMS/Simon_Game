@@ -86,7 +86,7 @@ function checkAnswer(currentLevel) {
         wrong.play();
 
         $("body").addClass("wrong");
-        $("h1").text("Game Over!! Press Any Key to Restart");
+        $("h1").text("Game Over!! Press Any Key or touch to Restart");
 
         setTimeout(function () {
             $("body").removeClass("wrong");
