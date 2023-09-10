@@ -53,3 +53,13 @@ h1 {
 .wrong {
     background-color: red;
 }
+
+@media (min-width: 0) and (max-width: 768px) {
+    .res1 {
+        display: inline-block
+    }
+
+    .res {
+        display: none;
+    }
+}
