@@ -67,3 +67,31 @@ h1 {
         display: none;
     }
 }
+
+@media (min-width: 610px) and (max-width: 630px) {
+    .res1 {
+        display: inline-block
+    }
+
+    .res {
+        display: none;
+    }
+
+    .container {
+        margin: 15px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 610px) {
+    .res1 {
+        display: inline-block
+    }
+
+    .res {
+        display: none;
+    }
+
+    .container {
+        margin: 5px;
+    }
+}
